@@ -22,7 +22,4 @@ public class UsuarioService {
         return userRepository.findAll();
     }
 
-    public String findByToken(String token) {
-        return userRepository.finByToken(token);
-    }
 }
